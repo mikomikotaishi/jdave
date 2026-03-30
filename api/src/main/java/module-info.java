@@ -1,7 +1,6 @@
 module club.minnced.discord.jdave {
-    requires java.base;
-    requires transitive net.dv8tion.jda;
-    requires org.jspecify;
+    requires static transitive net.dv8tion.jda;
+    requires static org.jspecify;
     requires org.slf4j;
 
     exports club.minnced.discord.jdave;
